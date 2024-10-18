@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Książka kontaktów
+Napisz aplikację do przechowywania kontaktów w książce telefonicznej. Aplikacja powinna składać się z formularza, listy kontaktów i pola wyszukiwania do filtrowania listy kontaktów.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Komponenty
+W tym zadaniu interfejs jest już podzielony na komponenty. Twoim zadaniem jest przemyślenie stanu i propsów oraz przeniesienie tego do kodu.
