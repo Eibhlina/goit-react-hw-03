@@ -5,5 +5,5 @@ Napisz aplikację do przechowywania kontaktów w książce telefonicznej. Aplika
 
 
 
-Komponenty
+Komponenty:
 W tym zadaniu interfejs jest już podzielony na komponenty. Twoim zadaniem jest przemyślenie stanu i propsów oraz przeniesienie tego do kodu.
