@@ -1,10 +1,19 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import App from './components/App.jsx'
+import './styles/Phonebook.css'
+import './styles/AddUserForm.css'
+import './styles/option.css'
+import { Provider } from 'react-redux'
+import { contactStore } from './redux/contaktStore.js'
+
+
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+  <Provider store={contactStore}>
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  </Provider>
+
 )
